@@ -126,35 +126,37 @@
 
 // EJERCICIO 9 
 
-let hel = prompt("indique acompañante de su helado:  ")
+// let hel = prompt("indique acompañante de su helado:  ")
 
-switch
-(hel){
+// switch
+// (hel){
 
-    case
-        "sin topping":
-        alert("el valor de su helado sin topping es 50 MXN");
-        break;
+//     case
+//         "sin topping":
+//         alert("el valor de su helado sin topping es 50 MXN");
+//         break;
 
-    case
-        "topping oreo":
-        alert("el valor de su helado con topping de oreo es 60 MXN");
-        break;
+//     case
+//         "topping oreo":
+//         alert("el valor de su helado con topping de oreo es 60 MXN");
+//         break;
 
-    case
-        "topping KitKat":
-        alert("el valor de su helado con topping de KitKat es 65 MXN");
-        break;
+//     case
+//         "topping KitKat":
+//         alert("el valor de su helado con topping de KitKat es 65 MXN");
+//         break;
 
-    case
-        "topping brownie":
-        alert("el valor de su helado con topping de brownie es 70 MXN");
-        break;
+//     case
+//         "topping brownie":
+//         alert("el valor de su helado con topping de brownie es 70 MXN");
+//         break;
 
-    default:
-        alert("no tenemos ese topping, lo sentimos");
-        alert("el valor de su helado es 50 MXN")
-        break;
+//     default:
+//         alert("no tenemos ese topping, lo sentimos");
+//         alert("el valor de su helado es 50 MXN")
+//         break;
     
-}
+// }
+
+// EJERCICIO 10
 
