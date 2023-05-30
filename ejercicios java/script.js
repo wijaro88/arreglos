@@ -110,3 +110,51 @@
 // }
 
 // EJERCICIO 8
+
+// alert("programa para verificar notas")
+// let nota = parseInt(prompt(" Indica la calificacion, numero entre 1 y 10 : "));
+// if(nota<=10 && nota>=1){
+//     if(nota<6){
+//         alert("Reprobado")
+//     }else if (nota<=8){
+//         alert("Regular")
+//         }else if(nota>9){
+//             alert("Excelente")
+//              }else{alert("Bien")}
+// }
+// else{alert("el numero digitado esta fuera del rango permitido")}
+
+// EJERCICIO 9 
+
+let hel = prompt("indique acompañante de su helado:  ")
+
+switch
+(hel){
+
+    case
+        "sin topping":
+        alert("el valor de su helado sin topping es 50 MXN");
+        break;
+
+    case
+        "topping oreo":
+        alert("el valor de su helado con topping de oreo es 60 MXN");
+        break;
+
+    case
+        "topping KitKat":
+        alert("el valor de su helado con topping de KitKat es 65 MXN");
+        break;
+
+    case
+        "topping brownie":
+        alert("el valor de su helado con topping de brownie es 70 MXN");
+        break;
+
+    default:
+        alert("no tenemos ese topping, lo sentimos");
+        alert("el valor de su helado es 50 MXN")
+        break;
+    
+}
+
