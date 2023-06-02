@@ -4,49 +4,51 @@
 // EJERCICIO 1
 
 // let bel = prompt("¿Eres Bellisimo?");
-// if (bel =="si" || "SI"){
-//     console.log("Ciertamente")
-// }else{
-//     console.log("No te creo")
-// };
+// if (bel == "si"){
+//     alert("Ciertamente");
+//     }
+// else{
+//     alert("No te creo");
+//     }
 
-// EJERCICIO 2
-
+// // EJERCICIO 2
+// alert("programa para saber si un numero es divisible x 2");
 // let num = parseInt ( prompt ("Indica un numero para saber si es divisible por 2"));
 // if (num % 2 == 0){
-//     console.log(num + " es divisible entre 2")
+//     alert(num + " SI, es divisible entre 2");
 // }else{
-//     console.log(num + " No es divisible entre 2")
-// };
+//     alert(num + " No es divisible entre 2");
+// }
 
 // EJERCICIO 3
-
-// let num2 = parseInt ( prompt ("Indica el numero para saber si es par o impar"));
+// alert("programa para saber si un numero es Par o Impar");
+// let num2 = parseInt ( prompt ("Indica el numero: "));
 // if (num2 % 2 == 0){
-//     alert("PAR")
+//     alert("PAR");
 // }else{
-//     alert("IMPAR")
-// };
+//     alert("IMPAR");
+// }
 
 // // EJERCICIO 4
 
+// alert("programa RIFA");
 // let num3 = parseInt ( prompt ("Indique un numero para la RIFA!!!!!!: "));
 // if (num3 == "1000"){
-//     console.log("GANASTE UN PREMIO!!!!!!!!!!")
+//     alert("GANASTE UN PREMIO!!!!!!!!!!");
 // }else{
-//     console.log("LO SENTIMOS, SIGUE PARTICIPANDO")
-// };
+//     alert("LO SENTIMOS, SIGUE PARTICIPANDO");
+// }
 
 //EJERCICIO 5
 
 // alert("programa para comparar dos numeros")
-// let nume1 = parseInt ( prompt (" Indica el primer numero para saber si es Mayor o Menor: " ));
-// let nume2 = parseInt ( prompt (" Indica el segundo numero para realizar la comparación: "));
+// let nume1 = parseInt ( prompt (" Indica el primer Numero: " ));
+// let nume2 = parseInt ( prompt (" Indica el segundo numero; \n para realizar la comparación: "));
 // if (nume1 >= nume2){
-//     alert("el numero:  " +nume1 + "  es mayor que el numero:  "+nume2 )
+//     alert(`El numero:  ${nume1} \n Es mayor que:  ${nume2}` );
 // }else{
-//     alert("el numero:  " +nume2 + "  es mayor que el numero:  "+nume1)
-// };
+//     alert(`El numero:  ${nume2} \n Es mayor que:  ${nume1}` );
+// }
 
 //EJERCICIO 6
 
@@ -125,7 +127,7 @@
 // else{alert("el numero digitado esta fuera del rango permitido")}
 
 // EJERCICIO 9 
-
+// alert(" Indica el topping deseado \n\n Sin topping \n topping oreo \n topping KitKat \n topping brownie");
 // let hel = prompt("indique acompañante de su helado:  ")
 
 // switch
@@ -161,7 +163,7 @@
 // EJERCICIO 10
 
 // alert("programa para calcular matricula")
-// alert(" Indica el nivel del programa /n 1.Course $4999MXN /n 2.Carrera $3999MXN /n 3.Master $2999");
+// alert(" Indica el nivel del programa \n\n 1. Course $4999MXN \n 2. Carrera $3999MXN \n 3. Master $2999");
 // let niv = parseInt(prompt("digite el nivel a realizar"));
 // switch (niv) {
 //     case 1:
@@ -182,7 +184,7 @@
 //     default:
 //         break;
 // }
-// alert(`posee ud algun tipo de Beca /n 1.Facebook  20% /n 2.google 15% /n 3.jesua 50% /n 4.Sin descuento`);
+// alert(`posee ud algun tipo de Beca \n 1.Facebook  20% \n 2.google 15% \n 3.jesua 50% \n 4.Sin descuento`);
 // let beca = parseInt(prompt(" digite el numero de Beca"));
 // switch (beca) {
 //     case 1:
@@ -206,51 +208,83 @@
 // }
 // alert(`el valor a pagar total es: ${pago - adic} por ${mes} meses`);
 
-alert("programa para calcular matricula")
-alert(" Indica el nivel del programa /n 1.Course $4999MXN /n 2.Carrera $3999MXN /n 3.Master $2999");
-let niv = parseInt(prompt("digite el nivel a realizar"));
-let pago = null;
-let mes = null;
-switch (niv) {
-    case 1:
-        pago = 4999;
-        alert(`su pago sera por: ${pago}`);
-        let mes = 2;
-        break;
-    case 2:
-        pago = 3999;
-        alert(`su pago sera por: ${pago}`);
-        mes = 6;
-        break;
-    case 3:
-        pago = 2999;
-        alert(`su pago sera por: ${pago}`);
-        mes = 12;
-        break;
-    default:
-        break;
-}
-let adic = null;
-alert(`posee ud algun tipo de Beca /n 1.Facebook  20% /n 2.google 15% /n 3.jesua 50% /n 4.Sin descuento`);
-let beca = parseInt(prompt(" digite el numero de Beca"));
-switch (beca) {
-    case 1:
-        adic = (pago * 20) / 100;
-        alert(`su descuento sera por  ${adic}`);
-        break;
-    case 2:
-        adic = (pago * 15) / 100;
-        alert(`su descuento sera por  ${adic}`);
-        break;
-    case 3:
-        adic = (pago * 50) / 100;
-        alert(`su descuento sera por  ${adic}`);
-        break;
-    case 4:
-        adic = 0;
-        alert("usted no cuenta con descuento ")
-        break;
-    default:
-        break;
-}
-alert(`el valor a pagar total es: ${pago - adic} por ${mes} meses`);
+// alert("programa para calcular matricula")
+// alert(" Indica el nivel del programa \n\n 1. Course $4999MXN \n 2. Carrera $3999MXN \n 3. Master $2999");
+// let niv = parseInt(prompt("digite el nivel a realizar"));
+// let pago = null;
+// let mes = null;
+// switch (niv) {
+//     case 1:
+//         pago = 4999;
+//         alert(`su pago sera por: ${pago}`);
+//         let mes = 2;
+//         break;
+//     case 2:
+//         pago = 3999;
+//         alert(`su pago sera por: ${pago}`);
+//         mes = 6;
+//         break;
+//     case 3:
+//         pago = 2999;
+//         alert(`su pago sera por: ${pago}`);
+//         mes = 12;
+//         break;
+//     default:
+//         break;
+// }
+// let adic = null;
+// alert(`posee ud algun tipo de Beca \n 1. Facebook  20% \n 2. google 15% \n 3. jesua 50% \n 4. Sin descuento`);
+// let beca = parseInt(prompt(" digite el numero de Beca"));
+// switch (beca) {
+//     case 1:
+//         adic = (pago * 20) / 100;
+//         alert(`su descuento sera por  ${adic}`);
+//         break;
+//     case 2:
+//         adic = (pago * 15) / 100;
+//         alert(`su descuento sera por  ${adic}`);
+//         break;
+//     case 3:
+//         adic = (pago * 50) / 100;
+//         alert(`su descuento sera por  ${adic}`);
+//         break;
+//     case 4:
+//         adic = 0;
+//         alert("usted no cuenta con descuento ")
+//         break;
+//     default:
+//         break;
+// }
+// alert(`el valor a pagar total es: ${pago - adic} por ${mes} meses`);
+
+// // EJERCICIO 11
+// alert(`programa que ayuda a calcular el total a pagar de acuerdo a la distancia recorrida`);
+
+// let disVehi = parseInt(prompt(`Que tipo de vehiculo maneja \n 1. Coche \n 2. Moto\n 3. Autobus`));
+// let disReco = parseInt(prompt(` digite la cantidad de Kilometros recorridos: `));
+// let disGas = parseInt(prompt(`Cantidad de litros de gasolina consumidos en el trayecto: `));
+// let costo=null;
+
+// if (disGas <= 100) {
+//     costo = 5;
+// } else {
+//     costo = 10;
+// }
+// // console.log(`tipo vehiculo ${disVehi}`);
+// // console.log(`cant km ${disReco}`);
+// // console.log(`gasolina ${disGas}`);
+// // console.log(`costo ${costo}`);
+
+// if (disVehi == `1`) {
+//     let totalc = ((0.20 * disReco) + costo);
+//     alert(`el pago realizado es: ${totalc}\n ya que los datos indicados son:\n 1. Tipo de vehiculo seleccionado Coche \n 2. cantidad de Kilometros: ${disReco}\n 3. Consumo de Gasolina: ${disGas}`);
+
+    
+// } else if (disVehi == `2`) {
+//     let totalc = ((0.10 * disReco) + costo);
+//     alert(`el pago realizado es: ${totalc}\n ya que los datos indicados son:\n 1. Tipo de vehiculo seleccionado Moto \n 2. cantidad de Kilometros: ${disReco}\n 3. Consumo de Gasolina: ${disGas}`);
+// }       else {
+//         let totalc = ((0.5 * disReco) + costo);
+//         alert(`el pago realizado es: ${totalc}\n ya que los datos indicados son:\n 1. Tipo de vehiculo seleccionado Autobus \n 2. cantidad de Kilometros: ${disReco}\n 3. Consumo de Gasolina: ${disGas}`);
+// }
+
