@@ -205,3 +205,52 @@
 //         break;
 // }
 // alert(`el valor a pagar total es: ${pago - adic} por ${mes} meses`);
+
+alert("programa para calcular matricula")
+alert(" Indica el nivel del programa /n 1.Course $4999MXN /n 2.Carrera $3999MXN /n 3.Master $2999");
+let niv = parseInt(prompt("digite el nivel a realizar"));
+let pago = null;
+let mes = null;
+switch (niv) {
+    case 1:
+        pago = 4999;
+        alert(`su pago sera por: ${pago}`);
+        let mes = 2;
+        break;
+    case 2:
+        pago = 3999;
+        alert(`su pago sera por: ${pago}`);
+        mes = 6;
+        break;
+    case 3:
+        pago = 2999;
+        alert(`su pago sera por: ${pago}`);
+        mes = 12;
+        break;
+    default:
+        break;
+}
+let adic = null;
+alert(`posee ud algun tipo de Beca /n 1.Facebook  20% /n 2.google 15% /n 3.jesua 50% /n 4.Sin descuento`);
+let beca = parseInt(prompt(" digite el numero de Beca"));
+switch (beca) {
+    case 1:
+        adic = (pago * 20) / 100;
+        alert(`su descuento sera por  ${adic}`);
+        break;
+    case 2:
+        adic = (pago * 15) / 100;
+        alert(`su descuento sera por  ${adic}`);
+        break;
+    case 3:
+        adic = (pago * 50) / 100;
+        alert(`su descuento sera por  ${adic}`);
+        break;
+    case 4:
+        adic = 0;
+        alert("usted no cuenta con descuento ")
+        break;
+    default:
+        break;
+}
+alert(`el valor a pagar total es: ${pago - adic} por ${mes} meses`);
